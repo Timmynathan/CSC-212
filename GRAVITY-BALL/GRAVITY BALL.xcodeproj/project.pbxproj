@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE5F14C92C0B7D4A001D6A91 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE5F14C62C0B7D4A001D6A91 /* test.cpp */; };
+		CE5F14CA2C0B7D4A001D6A91 /* animate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE5F14C82C0B7D4A001D6A91 /* animate.cpp */; };
+		CE5F14CE2C0B7EAC001D6A91 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5F14CC2C0B7EAC001D6A91 /* SDL2.framework */; };
+		CE5F14CF2C0B7EAC001D6A91 /* SDL2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE5F14CC2C0B7EAC001D6A91 /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CE5F14D42C0B8171001D6A91 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = CE5F14D32C0B8171001D6A91 /* Assets */; };
+		CE5F14D92C0B91D7001D6A91 /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE5F14CD2C0B7EAC001D6A91 /* SDL2_image.framework */; };
+		CE5F14DA2C0B91D7001D6A91 /* SDL2_image.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CE5F14CD2C0B7EAC001D6A91 /* SDL2_image.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE5F14D22C0B7EAC001D6A91 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE5F14CF2C0B7EAC001D6A91 /* SDL2.framework in Embed Frameworks */,
+				CE5F14DA2C0B91D7001D6A91 /* SDL2_image.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE5F14B22C0B7B77001D6A91 /* GRAVITY BALL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GRAVITY BALL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5F14BF2C0B7B79001D6A91 /* GRAVITY_BALL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GRAVITY_BALL.entitlements; sourceTree = "<group>"; };
+		CE5F14C52C0B7D4A001D6A91 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = test.h; path = "../../SDL_Template 3/test.h"; sourceTree = "<group>"; };
+		CE5F14C62C0B7D4A001D6A91 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = test.cpp; path = "../../SDL_Template 3/test.cpp"; sourceTree = "<group>"; };
+		CE5F14C72C0B7D4A001D6A91 /* animate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = animate.h; path = "../../SDL_Template 3/animate.h"; sourceTree = "<group>"; };
+		CE5F14C82C0B7D4A001D6A91 /* animate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = animate.cpp; path = "../../SDL_Template 3/animate.cpp"; sourceTree = "<group>"; };
+		CE5F14CC2C0B7EAC001D6A91 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2.framework; sourceTree = "<group>"; };
+		CE5F14CD2C0B7EAC001D6A91 /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDL2_image.framework; sourceTree = "<group>"; };
+		CE5F14D32C0B8171001D6A91 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE5F14AF2C0B7B77001D6A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5F14CE2C0B7EAC001D6A91 /* SDL2.framework in Frameworks */,
+				CE5F14D92C0B91D7001D6A91 /* SDL2_image.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE5F14A92C0B7B77001D6A91 = {
+			isa = PBXGroup;
+			children = (
+				CE5F14B42C0B7B77001D6A91 /* GRAVITY BALL */,
+				CE5F14B32C0B7B77001D6A91 /* Products */,
+				CE5F14CB2C0B7EAC001D6A91 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE5F14B32C0B7B77001D6A91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE5F14B22C0B7B77001D6A91 /* GRAVITY BALL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE5F14B42C0B7B77001D6A91 /* GRAVITY BALL */ = {
+			isa = PBXGroup;
+			children = (
+				CE5F14BF2C0B7B79001D6A91 /* GRAVITY_BALL.entitlements */,
+				CE5F14D32C0B8171001D6A91 /* Assets */,
+				CE5F14C82C0B7D4A001D6A91 /* animate.cpp */,
+				CE5F14C72C0B7D4A001D6A91 /* animate.h */,
+				CE5F14C62C0B7D4A001D6A91 /* test.cpp */,
+				CE5F14C52C0B7D4A001D6A91 /* test.h */,
+			);
+			path = "GRAVITY BALL";
+			sourceTree = "<group>";
+		};
+		CE5F14CB2C0B7EAC001D6A91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE5F14CD2C0B7EAC001D6A91 /* SDL2_image.framework */,
+				CE5F14CC2C0B7EAC001D6A91 /* SDL2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE5F14B12C0B7B77001D6A91 /* GRAVITY BALL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE5F14C22C0B7B79001D6A91 /* Build configuration list for PBXNativeTarget "GRAVITY BALL" */;
+			buildPhases = (
+				CE5F14AE2C0B7B77001D6A91 /* Sources */,
+				CE5F14AF2C0B7B77001D6A91 /* Frameworks */,
+				CE5F14B02C0B7B77001D6A91 /* Resources */,
+				CE5F14D22C0B7EAC001D6A91 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GRAVITY BALL";
+			productName = "GRAVITY BALL";
+			productReference = CE5F14B22C0B7B77001D6A91 /* GRAVITY BALL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE5F14AA2C0B7B77001D6A91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CE5F14B12C0B7B77001D6A91 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = CE5F14AD2C0B7B77001D6A91 /* Build configuration list for PBXProject "GRAVITY BALL" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE5F14A92C0B7B77001D6A91;
+			productRefGroup = CE5F14B32C0B7B77001D6A91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE5F14B12C0B7B77001D6A91 /* GRAVITY BALL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE5F14B02C0B7B77001D6A91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5F14D42C0B8171001D6A91 /* Assets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE5F14AE2C0B7B77001D6A91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5F14C92C0B7D4A001D6A91 /* test.cpp in Sources */,
+				CE5F14CA2C0B7D4A001D6A91 /* animate.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE5F14C02C0B7B79001D6A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CE5F14C12C0B7B79001D6A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CE5F14C32C0B7B79001D6A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GRAVITY BALL/GRAVITY_BALL.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "organization.GRAVITY-BALL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		CE5F14C42C0B7B79001D6A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "GRAVITY BALL/GRAVITY_BALL.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "organization.GRAVITY-BALL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE5F14AD2C0B7B77001D6A91 /* Build configuration list for PBXProject "GRAVITY BALL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5F14C02C0B7B79001D6A91 /* Debug */,
+				CE5F14C12C0B7B79001D6A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE5F14C22C0B7B79001D6A91 /* Build configuration list for PBXNativeTarget "GRAVITY BALL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE5F14C32C0B7B79001D6A91 /* Debug */,
+				CE5F14C42C0B7B79001D6A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE5F14AA2C0B7B77001D6A91 /* Project object */;
+}
