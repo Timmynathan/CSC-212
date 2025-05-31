@@ -1,4 +1,4 @@
-# 🖼️ Computer Graphics Projects – Timmynathan
+# 🖼️ Computer Graphics Projects
 
 This repository showcases a collection of projects completed as part of my **Computer Graphics** course. These projects explore foundational and intermediate topics in 2D/3D graphics using tools like **OpenGL** and **Blender**.
 
